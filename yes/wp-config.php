@@ -22,7 +22,7 @@ define('DB_NAME', 'arjantimmer_nl_wordpre');
 define('DB_USER', 'arjan_nl_wordpre');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'bCTaEXnr');
+define('DB_PASSWORD', 'bHPvOlZ1AI');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
