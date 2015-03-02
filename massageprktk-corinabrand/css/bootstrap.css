@@ -232,7 +232,7 @@ textarea {
      commented by akhlesh  */
 a {
   /* color: #0088cc; Comment by Shahid*/
-  color: #626668;
+  color: #000;
   text-decoration: none;
 }
 
@@ -635,7 +635,7 @@ a:focus {
   padding-right: 20px;
   padding-left: 20px;
   *zoom: 1;
-  background:#f6f2ec;/* added by akhlesh */
+  background:#B2A9BE;/* added by akhlesh */
 }
 
 .container-fluid:before,
@@ -740,7 +740,7 @@ h4,
 h5,
 h6 {
   margin: 10px 0;
-  font-family: inherit;
+  font-family: Tempus Sans ITC;
   font-weight: bold;
   line-height: 20px;
   color: inherit;
@@ -1071,7 +1071,7 @@ input,
 button,
 select,
 textarea {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 label {
@@ -1167,14 +1167,14 @@ input[type="search"]:focus,
 input[type="tel"]:focus,
 input[type="color"]:focus,
 .uneditable-input:focus {
-  border-color: rgba(242, 40, 83, 0.9);
+  border-color: rgba(178, 169, 190, 0.9);
   outline: 0;
   outline: thin dotted \9;
   /* IE6-9 */
 
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(242, 40, 83, 0.9);
-     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(242, 40, 83, 0.9);
-          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(242, 40, 83, 0.9);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(178, 169, 190, 0.9);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(178, 169, 190, 0.9);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(178, 169, 190, 0.9);
 }
 
 input[type="radio"],
@@ -2025,16 +2025,17 @@ table {
   vertical-align: top;
   border-top: 1px solid #e6e6e6;
   /* Added by shahid */
-  font-family: roboto;
+  font-family: Arial;
   color: #858585;
   font-size: 14px;
 }
 
 .table th {
+font-family: Tempus Sans ITC;
   font-weight: bold;
   /* Added by shahid */
   font-size: 16px;
-  color: #ffffff;
+  color: #000;
 }
 
 .table thead th {
@@ -2089,7 +2090,7 @@ table {
 .table-bordered tbody:first-child tr:first-child td {
   border-top: 0;
   /* Added by Shahid */
-  background: #f22853;
+  background: #B4FEB6;
 }
 
 .table-bordered thead:first-child tr:first-child > th:first-child,
@@ -2940,7 +2941,7 @@ table th[class*="span"],
     list-style: none;
     
 	font-size: 13px;
-	font-family: proximanovaalt;
+	font-family: Tempus Sans ITC;
  /*  position: absolute;
   top: 100%;
   left: 0;
@@ -2984,7 +2985,7 @@ table th[class*="span"],
 
 .dropdown-menu > li > a {
 
-   font-family:Raleway-Medium; 
+   font-family:Tempus Sans ITC; 
    display: block;
    font-size:13px;
     padding: 15px 20px;
@@ -3245,20 +3246,19 @@ button.close {
   *margin-left: .3em;
   font-size: 14px;
   line-height: 20px;
-  color: #ffffff;
   text-align: center;
   text-transform: uppercase;
-  font-family: proximanova;
+  font-family: Tempus Sans ITC;
   /* text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75); Comment by shahid*/ 
   vertical-align: middle;
   cursor: pointer;
-  background-color: #F22853;
-  *background-color: #F22853;
-  background-image: -moz-linear-gradient(top, #F22853, #F22853);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#F22853), to(#F22853));
-  background-image: -webkit-linear-gradient(top, #F22853, #F22853);
-  background-image: -o-linear-gradient(top, #F22853, #F22853);
-  background-image: linear-gradient(to bottom, #F22853, #F22853);
+  background-color: #B4FEB6;
+  *background-color: #B4FEB6;
+  background-image: -moz-linear-gradient(top, #B4FEB6, #B4FEB6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#B4FEB6), to(#B4FEB6));
+  background-image: -webkit-linear-gradient(top, #B4FEB6, #B4FEB6);
+  background-image: -o-linear-gradient(top, #B4FEB6, #B4FEB6);
+  background-image: linear-gradient(to bottom, #B4FEB6, #B4FEB6);
   background-repeat: repeat-x;
    border: 0px; 
   *border: 0;
@@ -3406,36 +3406,39 @@ input[type="button"].btn-block {
 }
 
 .btn-primary {
-  color: #ffffff;
-  /* text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); Comment by shahid*/
-  background-color: #006dcc;
-  *background-color: #0044cc;
-  background-image: -moz-linear-gradient(top, #0088cc, #0044cc);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));
-  background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);
-  background-image: -o-linear-gradient(top, #0088cc, #0044cc);
-  background-image: linear-gradient(to bottom, #0088cc, #0044cc);
-  background-repeat: repeat-x;
-  border-color: #0044cc #0044cc #002a80;
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
-  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  font-family: Arial;    
+  background-color:#b2a9be;
+    box-shadow: 0 4px #888291;
+    color: #fff !important;
+	border: 0 none;
+    border-radius: 9px;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1.3;
+    margin-bottom: 4px;
+    padding: 8px 1em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+    top: 0;
 }
 
-.btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active,
 .btn-primary.disabled,
 .btn-primary[disabled] {
-  color: #ffffff;
-  background-color: #0044cc;
-  *background-color: #003bb3;
+top: 2px;
+  text-shadow: none;
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .3) inset;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .3) inset;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .3) inset;
 }
 
 .btn-primary:active,
 .btn-primary.active {
-  background-color: #003399 \9;
+  background-color: #B2A9BE \9;
 }
 
 .btn-warning {
@@ -3934,7 +3937,7 @@ input[type="submit"].btn.btn-mini {
 		  line-height: 20px;
 		  text-align: left;
 		  font-size: 14px;
-		  font-family: roboto;
+		  font-family: Tempus Sans ITC;
 }
 
 .alert,
@@ -4143,7 +4146,7 @@ input[type="submit"].btn.btn-mini {
 .nav-tabs > .active > a,
 .nav-tabs > .active > a:hover,
 .nav-tabs > .active > a:focus {
-  color: #f22853;
+  color: #B4FEB6;
   cursor: default;
   background-color: #ffffff;
   /* border: 1px solid #ddd; 
@@ -4471,6 +4474,8 @@ input[type="submit"].btn.btn-mini {
 
 .navbar .container {
   width: auto;
+  background-color:#b2a9be;
+  border-bottom: 1px solid #888291;
 }
 
 .nav-collapse.collapse {
@@ -4589,7 +4594,7 @@ input[type="submit"].btn.btn-mini {
 .navbar-search .search-query {
   padding: 4px 14px;
   margin-bottom: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 13px;
   font-weight: normal;
   line-height: 1;
@@ -4667,9 +4672,9 @@ input[type="submit"].btn.btn-mini {
     display: block;
     float: right;
     left: 0;
-    margin: 0 0px 0 0;
+    margin: 100px 0px 0 0;
     position: relative;
-     width: 71.8%; /* Added by Shahid */
+    width: 71.8%; /* Added by Shahid */
 }
 
 
@@ -4692,8 +4697,8 @@ input[type="submit"].btn.btn-mini {
     -moz-text-decoration-style: solid;
     color: rgb(114, 121, 123);
     float: none;
-    font-family: Raleway-Medium;
-    font-size: 14px;
+    font-family: Tempus Sans ITC;
+    font-size: 17px;
     padding-bottom: 25px;
     padding-left: 20px;
     padding-right: 20px;
@@ -4913,14 +4918,14 @@ input[type="submit"].btn.btn-mini {
 .navbar-inverse .nav > li > a:focus,
 .navbar-inverse .nav > li > a:hover {
   color: #ffffff;
-    background-color: #f22853;
+    background-color: #B4FEB6;
 }
 
 .navbar-inverse .nav .active > a,
 .navbar-inverse .nav .active > a:hover,
 {
   color: #ffffff;
-  background-color:#f22853;
+  background-color:#B4FEB6;
 }
 
 .navbar-inverse .navbar-link {
@@ -4941,7 +4946,7 @@ input[type="submit"].btn.btn-mini {
 .navbar-inverse .nav li.dropdown.active > .dropdown-toggle,
 .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle {
   color: #ffffff;
-  background-color: #f22853;
+  background-color: #B4FEB6;
 }
 
 .navbar-inverse .nav li.dropdown > a:hover .caret,
@@ -5103,7 +5108,7 @@ input[type="submit"].btn.btn-mini {
 .pagination ul > .active > a,
 .pagination ul > .active > span {
   /* color: #999999; Comment by Shahid*/
-  color: #f22853;
+  color: #B4FEB6;
   cursor: default;
 }
 
@@ -6300,7 +6305,7 @@ right: 0px;
 /*aditionally added by akhlesh for memus*/
 .navbar-inverse .nav li.active
 {
-background-color:#F22853;
+background-color:#B4FEB6;
 
 }
 .navbar-inverse .nav li.active a
@@ -6311,6 +6316,6 @@ font-size:13px;
 }
 
 
-.navbar-inverse .nav li.current_page_item {  background-color:#f22853; color: #fff;   }
+.navbar-inverse .nav li.current_page_item {  background-color:#B4FEB6; color: #000;   }
  
- .navbar-inverse .nav li.current_page_item  a { color:#fff;} 
+ .navbar-inverse .nav li.current_page_item  a { color:#000;} 

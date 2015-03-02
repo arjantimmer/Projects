@@ -1,4 +1,3 @@
-<?php get_template_part('pink','header'); ?>
 <div class="container">
   <div class="_blank"></div>
   <!--- Main ---> 

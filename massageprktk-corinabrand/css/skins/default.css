@@ -3,16 +3,16 @@
 */
 
 /* link hover colors */
-a:hover,#flex_new h4 a:hover, a:focus,#sidebar ul li a:hover {  color: #f22853;text-decoration: none;	}
+a:hover,#flex_new h4 a:hover, a:focus,#sidebar ul li a:hover {  color: #B4FEB6;text-decoration: none;	}
 
 .navbar-inverse .nav > li > a:focus,
-.navbar-inverse .nav > li > a:hover {  color: #ffffff;background-color: #F22853;	}
+.navbar-inverse .nav > li > a:hover {  color: #000;background-color: #B4FEB6;	}
 
 .navbar-inverse .nav .active > a,
 .navbar-inverse .nav .active > a:hover
 {
-  color: #ffffff;
-  background-color: #F22853;
+  color: #000;
+  background-color: #B4FEB6;
 }
 .dropdown-menu{	background-color: #4b453f;	}
 .dropdown-menu > li > a {    border-bottom: 1px solid #57514A;color: #d2cbc4;	}
@@ -28,31 +28,31 @@ a:hover,#flex_new h4 a:hover, a:focus,#sidebar ul li a:hover {  color: #f22853;t
 .navbar-inverse .nav li.dropdown.open > .dropdown-toggle,
 .navbar-inverse .nav li.dropdown.active > .dropdown-toggle,
 .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle {
-  color: #ffffff;
-  background-color: #F22853;
+  color: #000;
+  background-color: #B4FEB6;
 }
 
 .current_page_item .dropdown-toggle .caret{border-bottom-color:#fff !important;border-top-color:#fff !important;}
 
 /* Custom Front Page Taglines */
-.home_tagline{	color: #F22853; }
+.home_tagline{	color: #B2A9BE; }
 .home_product_tagline{	color: #4b453f;	}
 
 /* change pink strip color from here */
-.pink-container {    background: none repeat scroll 0 0 #F22853;	}
+.pink-container {    background: none repeat scroll 0 0 #B4FEB6;	}
 .pink-container p{	border-left: 1px solid #F05D7D;color: #FCCED7;	}
 .spa_tag{	background: url("../../images/spa-tag.png") no-repeat scroll 0 0 transparent;	}
 .spa_tag span{	 color: #D61841;	}
 .spa_tag span p{	color: #9C253E;	}
 
 /* Contact Template colors */
-.contact-header,.phone-no{    color: #f22853;	}
+.contact-header,.phone-no{    color: #B4FEB6;	}
 
 /* submit buttons and search button of widget */
-.contact-form-submit ,.sidebar-btn{	background-color:#f22853;	}
+.contact-form-submit ,.sidebar-btn{	background-color:#b2a9be;	}
 
-/* Widget Search Button hover color*/
-.sidebar-btn:hover,.sidebar-btn:focus {  color: #ffffff;text-decoration: none;background: #3b3f41;	}
+/* Widget Search Button hover color*/	
+.sidebar-btn:hover,.sidebar-btn:focus {  color: #000;text-decoration: none;background: #b2a9be;	}
 
 /* contact form input fields focus colors*/
 textarea:focus,
@@ -71,13 +71,13 @@ input[type="search"]:focus,
 input[type="tel"]:focus,
 input[type="color"]:focus,
 .uneditable-input:focus {
-  border-color: rgba(242, 40, 83, 0.9);
+  border-color: rgba(178, 169, 190, 0.9);
   
   /* IE6-9 */
 
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(242, 40, 83, 0.9);
-     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(242, 40, 83, 0.9);
-          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(242, 40, 83, 0.9);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(178, 169, 190, 0.9);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(178, 169, 190, 0.9);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(178, 169, 190, 0.9);
 }
 /* Sidebar Widgets Color schemes */
-.widgettitle,#widget-title{	background: none repeat scroll 0 0 #F2F2F2; border-left: 4px solid #F22853;	}
+.widgettitle,#widget-title{	background: none repeat scroll 0 0 #F2F2F2; border-left: 4px solid #B4FEB6;	}

@@ -1,8 +1,8 @@
-/*!
+/*
 * Theme Name: Spasalon
-  Theme URI: http://webriti.com/spasalon-lite-description/
+* Theme URI: http://webriti.com/spasalon-lite-description/
 * Description: A responsive theme for SPA SALON and BEAUTY SALON type of business that uses multiple nav menus, right-sidebar,Featured Slider and Beautifully designed home page all manage via option panel.It has a pixel-perfect design that is great for any health care ,salons , spas etc related services who wants a new look for their site. Very recently added a support for woocommerce plugin. Now you create an effective online shop presence with the help of this woocommerce support i.e we have styled this theme in such a manner so that the woocommerce pages/templates looks very similar to the theme styles.
-* Version: 1.5.1.1
+* Version: 1.5.2
 * Author: webriti
 * Author URI: http://www.webriti.com
 * Tags: pink, white, full-width-template, threaded-comments, right-sidebar, one-column, two-columns, fixed-layout, custom-menu, sticky-post, theme-options, translation-ready, responsive-layout,featured-images
@@ -28,8 +28,8 @@ body {
     font-smoothing:antialiased;
     text-rendering:optimizeLegibility;
     font-smooth:always;
-    color: #959595;
-    font-family: "Trebuchet MS","Arial","Helvetica","Verdana","sans-serif";
+    color: #000;
+    font-family: "Arial","Helvetica","Verdana","sans-serif";
     font-size: 14px;
     font-style: normal;
     font-weight: normal;
@@ -44,8 +44,12 @@ body {
 margin-top:15px; width:auto; margin-left:25px;
 }
 
+.jumbotron h1 {
+font-family: Tempus Sans ITC !important;
+}
+
 .logo-img{
- height:60px;
+ height:180px;
 
 }
 /* Menus Drop Shadow */
@@ -56,9 +60,9 @@ margin-top:15px; width:auto; margin-left:25px;
 }
 
 .home_service{
-	font-family: roboto;
+	font-family: Tempus Sans ITC;
 	font-size: 16px;
-	color: #353c3f;
+	color: #000;
 	margin-bottom: 20.1px;
 }
 .home_service_img{
@@ -69,9 +73,9 @@ margin-top:15px; width:auto; margin-left:25px;
 	margin-bottom: 25px;
 }
 .home_service_para p{
-	font-family: roboto;
+	font-family: Arial;
 	font-size: 14px;
-	color: #626668;
+	color: #000;
 	text-align:left;
 	word-wrap:break-word;
 	word-break:normal;
@@ -91,15 +95,15 @@ margin-top:15px; width:auto; margin-left:25px;
 
 }
 .flex_thumbnail p{
-	font-family: MyriadPro;
-	color: #6d6962;
+	font-family: Arial;
+	color: #000;
 	font-size: 12px;
 	text-transform: uppercase;
 	 margin: 0px 20px; 
 }
 .flex_thumbnail h4{
-	font-family: Raleway-Medium;
-	color: #4b453f;
+	font-family: Tempus Sans ITC;
+	color: #000;
 	font-size: 21px;
 	text-transform: uppercase;
 	 margin: 0px 20px; 
@@ -110,7 +114,7 @@ margin-top:15px; width:auto; margin-left:25px;
   margin-bottom: 0;
   font-size: 12px;
   line-height: 24px;
-  color: #ffffff;
+  color: #000;
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
@@ -119,7 +123,7 @@ margin-top:15px; width:auto; margin-left:25px;
   -webkit-border-radius: 0px;
      -moz-border-radius: 0px;
           border-radius: 0px;
-  font-family: Raleway-Sbold;
+  font-family: Tempus Sans ITC;
   position: relative;
   top: 40%;
 }
@@ -130,7 +134,7 @@ margin-top:15px; width:auto; margin-left:25px;
 .flex_btn.active,
 .flex_btn.disabled,
 .flex_btn[disabled] {
-  color: #333333;
+  color: #000;
   background-color: #e6e6e6;
 }
 
@@ -142,7 +146,7 @@ margin-top:15px; width:auto; margin-left:25px;
 #product_slide{padding:0px;}
 #slide_desc{margin-top:20px;}
 .slide_content{height:auto;position:relative;}
-#comment {color: #555555; font-family:roboto;font-size:14px;} 
+#comment {color: #000; font-family:roboto;font-size:14px;} 
 #spa_form{margin-left:0px;}
 #spa_address_area{margin-top: 10px margin-left:0px;}
 #menu_position{position: static;}
@@ -158,8 +162,8 @@ margin-top:15px; width:auto; margin-left:25px;
 	border-right: 1px solid #eae7e4;
 }
 .home_products_bg h3{
-	font-family: roboto-bold;
-	color: #f22853;
+	font-family: Tempus Sans ITC;
+	color: #000;
 	font-size: 16px;
 	border-top: 1px solid #eae7e4;
 	margin: 0px;
@@ -170,8 +174,8 @@ margin-top:15px; width:auto; margin-left:25px;
 	margin-bottom: 0px;
 }
 .home_products_bg p{
-	font-family: roboto;
-	color: #626668;
+	font-family: Arial;
+	color: #000;
 	font-size: 13px;
 	padding: 5px 20px 0;
 }
@@ -212,19 +216,19 @@ margin-top:15px; width:auto; margin-left:25px;
 }
 .pink-container p{
 	
-    font-family: roboto;
+    font-family: Arial;
     font-size: 13px;
     padding-left: 30px;
 	line-height: 21px;
 }
 .pink_title  dt{
-	font-family: Raleway-Light;
+	font-family: Tempus Sans ITC;
 	color: #ffffff;
 	font-size: 21px;
 	text-transform:uppercase;
 }  
 .pink-head{
-	font-family: Raleway-Xbold;
+	font-family: Tempus Sans ITC;
 	color: #ffffff;
 	font-size: 36px;
 }
@@ -234,7 +238,7 @@ margin-top:15px; width:auto; margin-left:25px;
     display: block;
     font-size: 12px;
     font-weight: 600;
-	font-family: Raleway-Medium;
+	font-family: Tempus Sans ITC;
     height: 40px;
     left: 18px;
     line-height: 20px;
@@ -248,7 +252,7 @@ margin-top:15px; width:auto; margin-left:25px;
 .spa_tag span p{
     font-size: 18px;
 	
-	font-family: Raleway-Sbold;
+	font-family: Arial;
 	border: 0px;
 	padding: 0px;
 }
@@ -308,25 +312,25 @@ display:none;
     margin-bottom: 35px;
      margin-top: 0px; 
 	padding-left: 0px;
-	color:#353c3f;
-    font-family: roboto;
+	color:#000;
+    font-family: Arial;
     padding-bottom: 20px;
 	font-weight: normal;
 }
 
 .service-media-heading {
-	font-family:roboto;
+	font-family:Arial;
     font-size: 18px;
     line-height: 20px;
     margin-top: 5px;
 	 margin-bottom:10px;
-	color: #4A4849;
+	color: #000;
     font-weight: normal;
 }
 .services-content {
-  font-family:roboto;
+  font-family:Arial;
   font-size:12px;
-  color:#7a8082;
+  color:#000;
   margin-bottom:20px;
   }
 
@@ -348,11 +352,11 @@ display:none;
 
 .service-btn {
     display: block;
-    font-family: roboto;
+    font-family:Tempus Sans ITC;
     font-size: 19px;
     font-weight: 600;
     margin-bottom: 30px;
-	color:#f22853;
+	color:#000;
 	
 }
 
@@ -379,11 +383,11 @@ display:none;
 }
 .aboutus-head  {
 	margin-bottom:35px;
-	color: #F22853;
+	color: #000;
 	font-size: 24px;
 	line-height: 25px;
 	margin-top: 50px;
-	font-family: roboto;
+	font-family: Arial;
 	font-weight: normal;
 }
 .aboutus-team-img {
@@ -400,11 +404,11 @@ display:none;
 .aboutus-media-heading{
 font-size:18px;
 margin: 0 0 15px;
-color:#302d2e;
-font-family:roboto;
+color:#000;
+font-family:Arial;
 }
 .about-circle-img {
-    border: 7px solid #F22853;
+    border: 7px solid #B4FEB6;
 	-webkit-border-radius: 500px 500px 500px 500px;
      -moz-border-radius: 500px 500px 500px 500px;
           border-radius: 500px 500px 500px 500px;
@@ -415,12 +419,12 @@ font-family:roboto;
 }
 .aboutus-alink {
   
-	color: #F22853;
-	font-family:roboto;
+	color: #000;
+	font-family:Arial;
 	font-size:14px;
 
 }
-a{color:#F22853;}
+a{color:#000;}
 
 
 .media > .about-pull-left {
@@ -438,9 +442,9 @@ margin-right: 25px;
 .ourteamheading{
 margin-top:0px;
 margin-bottom:57px;
-color: #f22853;
+color: #000;
 font-size:24px;
-font-family: roboto;
+font-family:Arial;
 }
 #our-team{
    border-bottom: 1px solid #E9E9E9;
@@ -448,11 +452,11 @@ font-family: roboto;
 	margin-left:0px;
 }
 .designation {
-    color: #f22853;
+    color: #000;
     display: block;
     margin: 0 0 10px;
 
-	font-family:roboto;
+	font-family:Arial;
 }
 .contact-icons {
     float: left;
@@ -496,11 +500,11 @@ a.google:hover {
 
 #about-service-head{
 
-    color: #F22853;
+    color: #000;
     font-size: 27px;
     line-height: 20px;
     margin-bottom:3.5%;
-	font-family:roboto;
+	font-family:Arial;
 
 }
  #aboutus-service-sections{
@@ -515,22 +519,22 @@ a.google:hover {
 
 .aboutus_content p{
 font-size:12px;
-color:#929090;
-font-family:roboto;
+color:#000;
+font-family:Arial;
 
 }
 .about-team-head{
-color:#424040;
+color:#000;
 font-size:24px;
-font-family:roboto;
+font-family:Arial;
 margin-bottom:0px;
 
 
 }
 .aboutus-service-head{
-color:#302d2e;
+color:#000;
 font-size:18px;
-font-family:roboto;
+font-family:Arial;
 margin-bottom:0px;
 margin-top:0px;
 }
@@ -542,10 +546,10 @@ margin-top:0px;
  
 /* Css include here for Products template ------------------------------------------------------------------------------------*/
 .spa-products-btn {
-    font-family: roboto;
+    font-family:Arial;
     font-size: 16px;
 	line-height:21px;
-	color:#f22853;
+	color:#000;
     font-weight: 600;
 	padding-left: 15px;
 }
@@ -577,9 +581,9 @@ margin-top:0px;
     margin-bottom: 0px;
     margin-top: 50px;
 	line-height:20px;
-	color:#353c3f;
+	color:#000;
     padding-bottom: 0;
-	font-family: roboto;
+	font-family:Arial;
 	font-weight: normal;
 }
 
@@ -601,15 +605,15 @@ margin-top:0px;
     width: 100%;height:63%;
 }
 .spa-products-btn {
-    font-family: roboto;
+    font-family:Arial;
     font-size: 16px;
     font-weight: 600; 
 
 	padding-left: 15px;
 }
 .spa-thumbnail h4, .spa-products-thumbnail h4, .spa-products-detail h4, .spa-products-details-thumbnail h4{
-	color: #f22853;
-	font-family: roboto;
+	color: #000;
+	font-family:Arial;
 	padding-left: 7%;
 	margin-top:7%;
     padding-right: 10px;
@@ -617,7 +621,7 @@ margin-top:0px;
 
 }
 .spa-thumbnail p, .spa-products-thumbnail p, .spa-products-detail p, .spa-products-details-thumbnail p{
-	color: #626668;
+	color: #000;
 	padding-left: 15px;
 	margin-bottom:8%;
     padding-right: 10px;
@@ -628,13 +632,13 @@ margin-top:0px;
 	overflow:hidden;
 	height:12px; 
 	margin-bottom:0px;
-	font-family:roboto;
+	font-family:Arial;
 }
 .spa-products-thumbnail h4 a{
-	color: #353c3f;
+	color: #000;
 }
 .spa-products-thumbnail h4 a:hover{
-	color: #f22853;
+	color: #000;
 }
 
 /*Product Detail Page CSS-----------------------------------------------------------------------------------------------------------------------*/
@@ -649,15 +653,15 @@ margin-top:0px;
 .heading-related-products{
 	font-size:18px;
    line-height:20px;
-   color:#4a4849;
-    font-family: roboto; 
+   color:#000;
+    font-family:Arial; 
 	font-weight: normal;
 }
 .sidebar-widget-heading{
 font-size:18px;
    line-height:20px;
-   color:#4a4849;
-    font-family: roboto; 
+   color:#000;
+    font-family:Arial; 
 }
 
 
@@ -685,8 +689,8 @@ border-bottom: 1px solid #EAE7E4;
   }
  .media-heading{
 
-    color: #353C3F;
-    font-family: roboto;
+    color: #000;
+    font-family:Arial;
 	font-size:24px;
 	line-height:21px;
 
@@ -695,12 +699,12 @@ border-bottom: 1px solid #EAE7E4;
    margin-top:30px;
    font-size:12px;
    line-height:20px;
-   color:#7a8082;
-    font-family: roboto; 
+   color:#000;
+    font-family:Arial; 
  }
  .price-tag{
-   color: #f22853;
-    font-family: roboto;
+   color: #000;
+    font-family:Arial;
 	font-size:16px;
 	line-height:21px;
 	margin-bottom:25px;
@@ -709,8 +713,8 @@ border-bottom: 1px solid #EAE7E4;
 .Product-detail-heading{
     font-size: 24px;
 	line-height:21px;
-     color: #353c3f;
-    font-family: roboto;
+     color: #000;
+    font-family:Arial;
 	margin-bottom: 0;
 	margin-top: 6px;
     padding-bottom: 15px;
@@ -721,7 +725,7 @@ border-bottom: 1px solid #EAE7E4;
 /*contact css-------------------------------------------------------------------------------------------------------------*/
 .contact-header{   
     font-size: 24px;
-	font-family:roboto;
+	font-family:Arial;
 	line-height:20px;
     font-weight: normal;
     margin-bottom: 32px;
@@ -730,10 +734,10 @@ border-bottom: 1px solid #EAE7E4;
 
 }
 .contact-header-getin{
-  color: #f22853;
+  color: #000;
    line-height:20px;
     font-size: 24px;
-	font-family:roboto;
+	font-family:Arial;
 	padding-bottom: 0px;
 	font-weight: normal;
     margin-top: 60px;
@@ -747,16 +751,16 @@ border-bottom: 1px solid #EAE7E4;
 }
 
 .contact-add{
-    color: #424040;
+    color: #000;
     font-size: 24px;
     font-weight: normal;
 	line-height:20px;
-	font-family:roboto;
+	font-family:Arial;
     margin-bottom: 15px;
     padding: 0;
 }
 .address-detail{
-font-family:roboto;color:#7a7a7a;line-height:20px;font-size:14px;
+font-family:Arial;color:#000;line-height:20px;font-size:14px;
 font-weight:normal;
 }
 #phone {
@@ -767,7 +771,7 @@ font-weight:normal;
 }
 
 .phone-no {
-    color: #F22853;
+    color: #000;
     font-family: Raleway-Medium;
     font-size: 48px;
     line-height: 45px;
@@ -784,7 +788,7 @@ font-weight:normal;
     background: none repeat scroll 0 0 #FFFFFF;
     border: 1px solid #E0E0E0;
     bottom: 33px;
-    color: #302D2E;
+    color: #000;
     font-family: roboto;
     font-size: 24px;
     left: 120px;
@@ -799,13 +803,13 @@ font-weight:normal;
 	 border: 0px;
      display: block; 
 	 margin-bottom: 0px;
-	 border-bottom: 5px solid #F22853;
+	 border-bottom: 5px solid #B4FEB6;
 }
 
 .form_name
 {
-   font-family:roboto;
-    color:#707070;
+   font-family:Arial;
+    color:#000;
 	font-size:14px;
 }
 .contact-input-fields{
@@ -820,14 +824,14 @@ font-weight:normal;
 	 
 }
 .contact-form-submit {
-  font-family:roboto;
+  font-family:Tempus Sans ITC;
  display: inline-block;
      margin-top: 10px;
     padding-left: 0;
     padding-right: 0;
     width: 150px;
 	height:48px;
-	background-color:#f22853;
+	background-color:#B4FEB6;
 	color:#ffffff;
 	font-size:20px;
 	border:0px;
@@ -868,8 +872,8 @@ font-weight:normal;
 }
 .blog_detail_head{
 	font-size:24px;
-font-family:roboto;
-color:#353c3f;
+font-family:Tempus Sans ITC;
+color:#000;
 line-height:20px;
 margin:0px 0px 30px;
 font-weight: normal;
@@ -888,7 +892,7 @@ ms-word-wrap: break-word;
     margin-left: 0;
     width: 150px;
 	font-family:roboto;
-	color:#9a9a9a;
+	color:#000;
 }
 
 .blog-icons li {
@@ -899,10 +903,10 @@ ms-word-wrap: break-word;
     width: 150px;
 }
 .blog-icons li a {
-    color:#9a9a9a;
+    color:#000;
 }
 .blog-icons li a:hover {
-    color:#f22853;
+    color:#000;
 }
 .blog-icon-media{
 	float: left;
@@ -922,24 +926,24 @@ ms-word-wrap: break-word;
     font-weight: normal;
     line-height: 25px;
     margin: 5px 0 15px;
-	color:#353c3f;
-	font-family:roboto;
+	color:#000;
+	font-family:Tempus Sans ITC;
 }
 .blog_content p
 {
-  font-family:roboto;
-  color:#989495;
+  font-family:Arial;
+  color:#000;
   line-height:24px;
   font-size:14px;
 }
 .blog-readmore{
 display: block;
-    font-family: roboto;
+    font-family:Arial;
     font-size: 12px;
     font-weight: 600;
     margin-bottom: 30px;
 	margin-top:25px;
-	color:#f22853;
+	color:#000;
 }
 /* Sidebar    -------------------------------------------------------------------------------------------------*/
 ._blank{
@@ -954,8 +958,8 @@ display: block;
 	margin-left: 0px;
 }
 .spa-widget-title{
-    color: #4a4849;
-    font-family: roboto;
+    color: #000;
+    font-family: Tempus Sans ITC;
     font-size: 18px;
     font-style: normal;
     line-height: 30px;
@@ -964,8 +968,8 @@ display: block;
 .widgettitle{
 	padding-top: 5px;
 	padding-bottom: 5px;
-	color: #4a4849;
-    font-family: roboto;
+	color: #000;
+    font-family: Tempus Sans ITC;
     font-size: 18px;
     font-style: normal;
     line-height: 30px;
@@ -978,19 +982,19 @@ display: block;
 	 border-bottom: 1px solid #e8e8e8; /* Commented By Akhlesh (Told By Mr. Sunil Sir) */
 	padding-bottom: 22px;}
 .sidebar-thumb p{
-	font-family: roboto;
-	color: #a3a7a9;
+	font-family: Arial;
+	color: #000;
 	font-size: 12px;
 	margin:0 0 2px;
 }
 .sidebar-thumb a{
-	font-family: roboto;
-	color: #7a8082;
+	font-family: Arial;
+	color: #000;
 	font-size: 12px;
 }
 .sidebar-thumb a:hover{
-	font-family: roboto;
-	color: #f22853;
+	font-family: Arial;
+	color: #000;
 	font-size: 12px;
 }
 .sidebar-img{
@@ -1011,8 +1015,8 @@ display: block;
 	display: inline-block;
 padding: 0 10px 10px 37px;
 width: 80%;
-color: #4a4849;
-font-family: roboto;
+color: #000;
+font-family: Arial;
 font-size: 16px;
 }
 .sidebar-mail{
@@ -1031,8 +1035,8 @@ font-size: 16px;
 display: inline-block;
 padding: 0 10px 10px 37px;
 width: 80%;
-color: #4a4849;
-font-family: roboto;
+color: #000;
+font-family: Arial;
 font-size: 16px;
 }
 .sidebar-mail a 
@@ -1040,50 +1044,43 @@ font-size: 16px;
 	display: inline-block;
     padding: 0 10px 10px 37px;
     width: 80%;
-	color: #4a4849;
-	font-family: roboto;
+	color: #000;
+	font-family: Arial;
 	font-size: 16px;
 }
 
 .social-icons{	margin-top: 15px;margin-bottom: 20px;	}
 
 .sidebar-btn {
-  display: inline-block;
-  *display: inline;
-  padding: 10px 35px;
-  margin-bottom: 0;
-  *margin-left: .3em;
-  font-size: 14px;
-  line-height: 20px;
-  color: #ffffff;
-  text-align: center;
-  font-family: roboto;
-  vertical-align: middle;
-  cursor: pointer;
-   *background-color: #F22853;
-  background-image: -moz-linear-gradient(top, #F22853, #F22853);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#F22853), to(#F22853));
-  background-image: -webkit-linear-gradient(top, #F22853, #F22853);
-  background-image: -o-linear-gradient(top, #F22853, #F22853);
-  background-image: linear-gradient(to bottom, #F22853, #F22853);
-  background-repeat: repeat-x;
-   border: 0px; 
-  *border: 0;
-
-  -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-          border-radius: 4px;
- 
+	font-family: Arial;    
+    box-shadow: 0 4px #888291;
+    color: #fff !important;
+	border: 0 none;
+    border-radius: 9px;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1.3;
+    margin-bottom: 4px;
+    padding: 8px 1em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+    top: 0;
+    width: 100%;
 }
-.sidebar-btn:hover,
+
 .sidebar-btn:focus,
 .sidebar-btn:active,
 .sidebar-btn.active,
 .sidebar-btn.disabled,
 .sidebar-btn[disabled] {
-  color: #ffffff;
-  background-color: #3b3f41;
-  *background-color: #3b3f41;
+
+  top: 2px;
+  text-shadow: none;
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .3) inset;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .3) inset;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .3) inset;
 }
 
 
@@ -1097,9 +1094,9 @@ font-size: 16px;
 
 .post-title{
  font-size:24px;
- color:#353c3f;
+ color:#000;
  line-height:20px;
- font-family:roboto;
+ font-family:Tempus Sans ITC;
  font-weight:normal;
  margin:0px;
 }
@@ -1107,8 +1104,8 @@ font-size: 16px;
 
 .blog-detail-content p{
 font-size:14px;
-font-family:roboto;
-color:#989495;
+font-family:Arial;
+color:#000;
 line-height:24px;
 margin-top:0px;
 }
@@ -1119,9 +1116,9 @@ margin-top:0px;
 	
 }
 .blog-detail-subheading{
-color:#3b3f41;
+color:#000;
 font-size:18px;
-font-family:roboto;
+font-family:Arial;
 line-height:20px;
 font-weight:regural;
 margin-top:30px;
@@ -1132,14 +1129,14 @@ ul.service-detail-list{
     margin-left: 15px;
 }
 ul.service-detail-list li, .blog-post-list li {
-    color: #F22853;
+    color: #000;
     font-size: 16px;
     line-height: 30px;
     list-style: disc outside none;
     padding-left: 7px;
 }
 ul.service-detail-list li span, .blog-post-list li span {
-    color: #5B5F61;
+    color: #000;
     font-size: 15px;
 	font-weight:bold;
 }
@@ -1154,24 +1151,24 @@ height:70px;
 }
 .blog-post-heading {
     font-size: 14px;
-	color:#2f2f2f;
+	color:#000;
 	line-height:20px;
-	font-family:roboto;
+	font-family:Tempus Sans ITC;
     margin: 0 0 10px;
 }
 .reply {
     float: right;
-    font-family: roboto;
+    font-family: Arial;
     font-size: 14px;
 }
 .reply a {
-    color: #353C3F;
+    color: #000;
 }
 .blog-comment-content  p{
-font-family: roboto;
+font-family: Arial;
 font-size: 12px;
 line-height:20px;
-color:#989495;
+color:#000;
 }
 .blog-comment-content  {
 margin-left:30px;
@@ -1181,35 +1178,54 @@ margin-left:30px;
 #reply-title
 {
 	border-top: 1px solid #dedede;
-	color: #F22853;
+	color: #000;
 	font-size: 24px;
 	margin-bottom: 22px;
 	margin-top: 60px;
 	padding-top: 15px;
-	font-family: roboto;
+	font-family: Tempus Sans ITC;
 	font-weight: normal;
 }
 .blog-form-feild{
-font-family:roboto;
-color:#6b6768;
+font-family:Arial;
+color:#000;
 font-size:14px;
 line-height:20px;
 margin-bottom:10px;
 }
 
-
 #blog-form-post,a.add_to_cart_button {
-	background-color: #F22853;
-    border: 0 none;
-    border-radius: 2px 2px 2px 2px;
-    color: #FFFFFF;
+	font-family: Tempus Sans ITC;    
+	background-color:#b2a9be;
+    box-shadow: 0 4px #888291;
+    color: #fff !important;
+	border: 0 none;
+    border-radius: 9px;
     display: inline-block;
-    font-family: roboto;
-    font-size: 14px;
-    font-weight: 600;
-    margin-top: 10px;
-    padding: 10px 30px;
+    font-size: 16px;
+    line-height: 1.3;
+    margin-bottom: 4px;
+    padding: 8px 1em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+    top: 0;
 }
+
+#blog-form-post,a.add_to_cart_button:focus,
+#blog-form-post,a.add_to_cart_button:active,
+#blog-form-post,a.add_to_cart_button.active,
+#blog-form-post,a.add_to_cart_button.disabled,
+.add_to_cart_button[disabled] {
+
+  top: 2px;
+  text-shadow: none;
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .3) inset;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .3) inset;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .3) inset;
+}
+
 .blog-detail-img{
 width:770px;
 height:450px;
@@ -1223,8 +1239,8 @@ height:450px;
 /* Typography page css here */
 .typography-heading {
     border-bottom:1px solid #e7e4e5;
-	color: #f22853;
-    font-family:roboto;
+	color: #000;
+    font-family:Tempus Sans ITC;
 	line-height:20px;
     font-size: 24px;
     margin-bottom: 50px;
@@ -1232,8 +1248,8 @@ height:450px;
 	margin-top:0px;
 }
 .headingh1{
-	color: #201f1f;
-    font-family:roboto;
+	color: #000;
+    font-family:Tempus Sans ITC;
 	line-height:20px;
     font-size: 36px;
 	margin-top:0px;
@@ -1241,8 +1257,8 @@ height:450px;
 
 }
 .headingh2{
-	color: #201f1f;
-    font-family:roboto;
+	color: #000;
+    font-family:Tempus Sans ITC;
 	line-height:20px;
     font-size: 30px;
 	margin-top:0px;
@@ -1250,8 +1266,8 @@ height:450px;
 }
 .headingh3
 {
-	color: #201f1f;
-    font-family:roboto;
+	color: #000;
+    font-family:Tempus Sans ITC;
 	line-height:20px;
     font-size: 24px;
 	margin-top:0px;
@@ -1260,31 +1276,31 @@ height:450px;
 
 .headingh4
 {
-	color: #201f1f;
-    font-family:roboto;
+	color: #000;
+    font-family:Tempus Sans ITC;
 	line-height:20px;
     font-size: 18px;
 	margin-top:0px;
 	
 }
 .headingh5{
-	color: #201f1f;
-    font-family:roboto;
+	color: #000;
+    font-family:Tempus Sans ITC;
 	line-height:20px;
     font-size: 14px;
     margin-top:60px;
 	margin-bottom:0px;
 }
 .headingh6{
-	color: #201f1f;
-    font-family:roboto;
+	color: #000;
+    font-family:Tempus Sans ITC;
 	line-height:20px;
     font-size: 12px;
     margin-top:60px;
 }
 .typography-content p {
-	color:#9aa1a5;
-	font-family:roboto;
+	color:#000;
+	font-family:Arial;
 	line-height:20px;
     font-size: 12px;
 	margin-top:30px;
@@ -1292,8 +1308,8 @@ height:450px;
 }
 
 .block-content p {
-	color:#9aa1a5;
-	font-family:roboto;
+	color:#000;
+	font-family:Arial;
 	line-height:20px;
     font-size: 12px;
 	margin-top:0px;
@@ -1301,8 +1317,8 @@ height:450px;
 }
 
 .typo-sub-heading{
-	color: #525556;
-    font-family:roboto;
+	color: #000;
+    font-family:Arial;
 	line-height:20px;
 	font-weight: 600;
     font-size: 12px;
@@ -1319,7 +1335,7 @@ ul.arrow1 li {
     padding-left: 25px;
 	line-height:24px;
 	font-size:12px;
-	font-family:roboto;
+	font-family:Arial;
 }
 
 
@@ -1333,7 +1349,7 @@ margin-right: 23px;
 	margin-bottom:20px;
 }
 .typo-bold{
-	color:#333333;
+	color:#000;
 	font-weight: 600;
 }
 #typo-media {
@@ -1345,7 +1361,7 @@ margin-right: 23px;
     width: 31%;
 }
 ul.typolist {
-	color: #f22853;
+	color: #000;
 	
     margin: 0 10px 25px;
 }
@@ -1355,10 +1371,10 @@ ul.typolist li
     margin-bottom: 9px;
     margin-left: 5px;
     padding-left: 8px;
-	color:#848b8f;
+	color:#000;
 	line-height:24px;
 	font-size:12px;
-	font-family:roboto;
+	font-family:Arial;
 	}
 
 	
@@ -1377,27 +1393,27 @@ margin: 0 10px 25px;
 }
 }	
 ul.typo-integer {
-	color:#848b8f;
+	color:#000;
 	
     margin: 0 15px 18px;
 	
 }
 
 ul.arrow1 a {
-	color:#848b8f;
+	color:#000;
 	line-height:24px;
 	font-size:12px;
-	font-family:roboto;
+	font-family:Arial;
 }
 ul.typo-integer li {
     margin-bottom: 9px;
     margin-left: 5px;
     padding-left: 0px;
 	list-style: decimal outside none;
-	color:#848b8f;
+	color:#000;
 	line-height:24px;
 	font-size:12px;
-	font-family:roboto;
+	font-family:Arial;
 }
 .coma {
 	border: 0px;
@@ -1411,7 +1427,7 @@ ul.typo-integer li {
   
   }
 span.blockquote-pink {
-	background-color: #f22853;
+	background-color: #B4FEB6;
 	border: 0px;
 	margin: 0px;
 	padding: 0px;
@@ -1431,29 +1447,29 @@ span.blockquote-black {
 	margin: 0px;
 	padding: 0px;
 	font-size: 18px;
-	color: #f22853;
+	color: #B4FEB6;
 }
   span.blockquote-black-large {
 	border: 0px;
 	margin: 0px;
 	padding: 0px;
-	color: #2d292a;
+	color: #000;
 	font-size: 18px;
 }
  #typo p{
-	color: #818A95;
+	color: #000;
 }
 .content-blockquote p{
-	color:#2e2c2d;
+	color:#000;
 	font-size:14px;
 	line-height:20px;
-	font-family:roboto;
+	font-family:Arial;
 }
 .typo-quote p{
-	color:#757575;
+	color:#000;
 	font-size:14px;
 	line-height:20px;
-	font-family:roboto;
+	font-family:Arial;
 
 	}
 blockquote.arrange {
@@ -1473,8 +1489,8 @@ span.first
 }
 span.second
 {
-	background: none repeat scroll 0 0 #F22853;
-    color: #FFFFFF;
+	background: none repeat scroll 0 0 #B4FEB6;
+    color: #000;
     float: left;
     font-size: 60px;
     line-height: 68px;
@@ -1492,8 +1508,8 @@ span.second
 		  border: 1px solid #d9d3d6;
 }
 .typo-img-caption{
- font-family:roboto;
- color:#2d292a;
+ font-family:Arial;
+ color:#000;
  font-size:21px;
  line-height:20px;
  margin:0 0 28px 0; 
@@ -1531,7 +1547,7 @@ a.thumbnail:focus {
 
 .content-thumb .caption {
   padding: 20px 0;
-  color: #555555;
+  color: #000;
   float: left;
 }
 .content-thumb .caption p{
@@ -1545,19 +1561,19 @@ a.thumbnail:focus {
   *margin-left: .3em;
   margin-right: 10px;
   font-size: 16px;
-  font-family: roboto;
+  font-family: Arial;
   line-height: 20px;
-  color: #fff;
+  color: #000;
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
-  background-color: #F22853;
-  *background-color: #F22853;
-  background-image: -moz-linear-gradient(top, #F22853, #F22853);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#F22853), to(#F22853));
-  background-image: -webkit-linear-gradient(top, #F22853, #FF22853);
-  background-image: -o-linear-gradient(top, #F22853, #F22853);
-  background-image: linear-gradient(to bottom, #F22853, #F22853);
+  background-color: #B4FEB6;
+  *background-color: #B4FEB6;
+  background-image: -moz-linear-gradient(top, #B4FEB6, #B4FEB6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#B4FEB6), to(#B4FEB6));
+  background-image: -webkit-linear-gradient(top, #B4FEB6, #FB4FEB6);
+  background-image: -o-linear-gradient(top, #B4FEB6, #B4FEB6);
+  background-image: linear-gradient(to bottom, #B4FEB6, #B4FEB6);
   background-repeat: repeat-x;
   -webkit-border-radius: 5px;
      -moz-border-radius: 5px;
@@ -1567,18 +1583,18 @@ a.thumbnail:focus {
 		  border: 0px;
 }
 .btn-thumb-red:hover{
-	color: #ffffff;
+	color: #000;
 	background: #3b3f41;
 }
 .btn-thumb-black:hover{
-	color: #ffffff;
+	color: #000;
 	background: #3b3f41;
 }
 .btn-thumb:hover,
 .btn-thumb:focus,
 .btn-thumb:active
 {
-  color: #ffffff;
+  color: #000;
   background-color: #2d292a;
   *background-color: #2d292a;
   background-image: -moz-linear-gradient(top, #2d292a, #2d292a);
@@ -1596,9 +1612,9 @@ a.thumbnail:focus {
   *margin-left: .3em;
   margin-right: 10px;
   font-size: 16px;
-  font-family: roboto;
+  font-family: Arial;
   line-height: 20px;
-  color: #fff;
+  color: #000;
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
@@ -1622,20 +1638,20 @@ a.thumbnail:focus {
 .btn-thumb1:focus,
 .btn-thumb1:active
 {
-  color: #ffffff;
-  background-color: #F22853;
-  *background-color: #F22853;
-  background-image: -moz-linear-gradient(top, #F22853, #F22853);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#F22853), to(#F22853));
-  background-image: -webkit-linear-gradient(top, #F22853, #F22853);
-  background-image: -o-linear-gradient(top, #F22853, #F22853);
-  background-image: linear-gradient(to bottom, #F22853, #F22853);
+  color: #000;
+  background-color: #B4FEB6;
+  *background-color: #B4FEB6;
+  background-image: -moz-linear-gradient(top, #B4FEB6, #B4FEB6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#B4FEB6), to(#B4FEB6));
+  background-image: -webkit-linear-gradient(top, #B4FEB6, #B4FEB6);
+  background-image: -o-linear-gradient(top, #B4FEB6, #B4FEB6);
+  background-image: linear-gradient(to bottom, #B4FEB6, #B4FEB6);
   background-repeat: repeat-x;
 }
 /* Column Page css here */
 .column{
-	color: #F22853;
-    font-family: roboto;
+	color: #000;
+    font-family: Arial;
     font-size: 24px;
     font-weight: normal;
     line-height: 25px;
@@ -1644,16 +1660,16 @@ a.thumbnail:focus {
 }
 .column-content p
 {
- font-family:roboto;
+ font-family:Arial;
  font-size:12px;
- color:#9aa1a5;
+ color:#000;
  line-height:20px;
  text-align:justify;
 }
 /* Shortcode Page css here------------------------------------------------------------------------------------------------------- */
 .shortcode-head{
-	font-family: roboto;
-	color: #201f1f;
+	font-family: Arial;
+	color: #000;
 	font-size: 24px;
 	font-weight: normal;
 	line-height: 25px;
@@ -1668,25 +1684,25 @@ a.thumbnail:focus {
   *margin-left: .3em;
   font-size: 14px;
   line-height: 20px;
-  color: #ffffff;
+  color: #000;
   text-align: center;
-  font-family: roboto;
+  font-family: Arial;
   vertical-align: middle;
   cursor: pointer;
   background-repeat: repeat-x;
    border: 0px; 
   *border: 0;
   text-transform: uppercase;
-  font-family: Raleway-Medium;
+  font-family: Arial;
 }
 .pink{
-  background-color: #F22853;
-  *background-color: #F22853;
-  background-image: -moz-linear-gradient(top, #F22853, #F22853);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#F22853), to(#F22853));
-  background-image: -webkit-linear-gradient(top, #F22853, #F22853);
-  background-image: -o-linear-gradient(top, #F22853, #F22853);
-  background-image: linear-gradient(to bottom, #F22853, #F22853);
+  background-color: #B4FEB6;
+  *background-color: #B4FEB6;
+  background-image: -moz-linear-gradient(top, #B4FEB6, #B4FEB6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#B4FEB6), to(#B4FEB6));
+  background-image: -webkit-linear-gradient(top, #B4FEB6, #B4FEB6);
+  background-image: -o-linear-gradient(top, #B4FEB6, #B4FEB6);
+  background-image: linear-gradient(to bottom, #B4FEB6, #B4FEB6);
 }
 .green{
   background-color: #5ebc2b;
@@ -1792,9 +1808,9 @@ a.thumbnail:focus {
 .yellow:focus,
 .red:hover,
 .red:focus {
-  color: #ffffff;
+  color: #000;
   text-decoration: none;
-  background: #3b3f41;
+  background: #EA97FB;
   background-position: 0 -15px; 
   -webkit-transition: background-position 0.1s linear;
      -moz-transition: background-position 0.1s linear;
@@ -1806,7 +1822,7 @@ a.thumbnail:focus {
     font-size: 14px;
     padding: 7px 35px;
 	text-transform: uppercase;
-	font-family: Raleway-Medium;
+	font-family: Arial;
 }
 .btn-mini{
 	margin-bottom: 15px;
@@ -1817,7 +1833,7 @@ a.thumbnail:focus {
     padding: 2px 10px;
     font-size: 12px;
     text-transform: uppercase;
-	font-family: Raleway-Medium;
+	font-family: Arial;
 }
 
  
@@ -1830,8 +1846,8 @@ ul.redarrow, ul.arrow, ul.upper {
 
 
 ul.redarrow li a, ul.arrow li a, ul.upper li a, ol li a, ul.typolist, ul.arrow1 li a, ul.typo-integer li a {
-    color: #6A7179;
-    font-family: roboto;
+    color: #000;
+    font-family: Arial;
     line-height: 32px;
 }
 
@@ -1863,8 +1879,8 @@ ul.redarrow, ul.arrow, ul.upper {
     padding: 20px;
 }
 .spa-blockquote p {
-    color: #818A95;
-    font-family: DroidSerifItalic;
+    color: #000;
+    font-family: Arial;
     font-size: 18px;
     font-style: normal;
     font-weight: 300;
@@ -1872,7 +1888,7 @@ ul.redarrow, ul.arrow, ul.upper {
     margin-bottom: 0;
 }
 .spa-blockquote small {
-    color: #F22853;
+    color: #000;
     display: block;
     font-size: 14px;
     line-height: 29px;
@@ -1884,13 +1900,13 @@ ul.redarrow, ul.arrow, ul.upper {
     padding: 8px 15px;
 }
 .pagination ul > li:first-child > a, .pagination ul > li:first-child > span{
-	color: #9a9697;
+	color: #000;
 }
 .pagination ul > li:last-child > a, .pagination ul > li:last-child > span{
-	color: #9a9697;
+	color: #000;
 }
 .pagination ul > li > a, .pagination ul > li > span{	
-	color: #4a4849;
+	color: #000;
 }
 .pager li > a, .pager li > span{
 	 -webkit-border-radius: 4px;
@@ -1899,20 +1915,20 @@ ul.redarrow, ul.arrow, ul.upper {
 		  padding:  8px 15px;
 }
 .pager li > a, .pager li > span{
-	color: #4a4849;
+	color: #000;
 }
 .pagi ul > .active > a, .pagi ul > .active > span {
     border: 1px solid #DE143E;
-    color: #FFFFFF;
+    color: #000;
     cursor: pointer;
 }
 .pagi ul > li > a:hover, .pagi ul > li > a.active, .pagi ul > li > a:focus, .pagi ul > .active > a, .pagi ul > .active > span {
     background-color: #EE395F;
-	color: #ffffff;
+	color: #000;
 }
 
 .nav-tabs > li > a{
-	font-family: roboto;
+	font-family: Arial;
 	font-size: 16px;
 	color: #000;
 }
@@ -1932,7 +1948,7 @@ ul.redarrow, ul.arrow, ul.upper {
 }
 .fullwidth-content p {
 	font-size:14px;
-	font-family:roboto;
+	font-family:Arial;
 	line-height:24px;
 	
 	
@@ -1987,7 +2003,7 @@ ul.redarrow, ul.arrow, ul.upper {
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
     border-radius: 5px 5px 5px 5px;
     bottom: 45px;
-    color: white;
+    color: #000;
     font-size: 11px;
     left: 15px;
     padding: 3px;
@@ -1997,7 +2013,7 @@ ul.redarrow, ul.arrow, ul.upper {
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0.75);
     border: 1px solid #141414;
     bottom: 50px;
-    color: #FAFAFA;
+    color: #000;
     font-size: 11px;
     padding: 10px;
     position: absolute;
@@ -2020,7 +2036,7 @@ ul.redarrow, ul.arrow, ul.upper {
     width: auto;
 }
 .pika-textnav a {
-    color: #333333;
+    color: #000;
     font-size: 12px;
     padding: 4px;
     text-decoration: none;
@@ -2066,9 +2082,9 @@ margin-top:50px;
 }
 .service-detail-content-head
 {
- font-family:roboto;
+ font-family:Arial;
  font-size:18px;
- color:#3b3f41;
+ color:#000;
  font-weight: normal;
 }
 .service-detail-content 
@@ -2079,16 +2095,16 @@ padding-right:100px;
 .service-detail-content p
 {
 	font-size:12px;
-font-family:roboto;
-color:#989495;
+font-family:Arial;
+color:#000;
 line-height:24px;
 margin-top:25px;
 }	
 .service_detail_head
 {
 font-size:24px;
-font-family:roboto;
-color:#353c3f;
+font-family:Arial;
+color:#000;
 line-height:21px;
 margin:0px 0px 30px;
 
@@ -2101,7 +2117,7 @@ margin:0px 0px 30px;
     padding: 17px;
 }
 .service-detail-heading {
-    color: #3B3F41;
+    color: #000;
     line-height: 20px;
     margin: 0 0 15px;
 	font-size: 18px;
@@ -2115,7 +2131,7 @@ ul.service-detail-list{
 }
 
 ul.service-detail-list li, .blog-post-list li {
-    color: #F22853;
+    color: #000;
     font-size: 15px;
     line-height: 30px;
     list-style: disc outside none;
@@ -2123,7 +2139,7 @@ ul.service-detail-list li, .blog-post-list li {
 }
 ul.service-detail-list li span, .blog-post-list li span {
     color: #5B5F61;
-    font-family: roboto;
+    font-family: Arial;
     font-size: 15px;
     line-height: 30px;
 	font-weight: normal;
@@ -2131,8 +2147,8 @@ ul.service-detail-list li span, .blog-post-list li span {
 
 /* Shortcode Page css here----------------------------------------------------------------------------------------*/
 .shortcode-head{
-	font-family: roboto;
-	color: #201f1f;
+	font-family:Arial;
+	color: #000;
 	font-size: 24px;
 	font-weight: normal;
 	line-height: 25px;
@@ -2147,25 +2163,25 @@ ul.service-detail-list li span, .blog-post-list li span {
   *margin-left: .3em;
   font-size: 14px;
   line-height: 20px;
-  color: #ffffff;
+  color: #000;
   text-align: center;
-  font-family: roboto;
+  font-family: Arial;
   vertical-align: middle;
   cursor: pointer;
   background-repeat: repeat-x;
    border: 0px; 
   *border: 0;
   text-transform: uppercase;
-  font-family: Raleway-Medium;
+  font-family: Arial;
 }
 .pink{
-  background-color: #F22853;
-  *background-color: #F22853;
-  background-image: -moz-linear-gradient(top, #F22853, #F22853);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#F22853), to(#F22853));
-  background-image: -webkit-linear-gradient(top, #F22853, #F22853);
-  background-image: -o-linear-gradient(top, #F22853, #F22853);
-  background-image: linear-gradient(to bottom, #F22853, #F22853);
+  background-color: #B4FEB6;
+  *background-color: #B4FEB6;
+  background-image: -moz-linear-gradient(top, #B4FEB6, #B4FEB6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#B4FEB6), to(#B4FEB6));
+  background-image: -webkit-linear-gradient(top, #B4FEB6, #B4FEB6);
+  background-image: -o-linear-gradient(top, #B4FEB6, #B4FEB6);
+  background-image: linear-gradient(to bottom, #B4FEB6, #B4FEB6);
 }
 .green{
   background-color: #5ebc2b;
@@ -2271,9 +2287,9 @@ ul.service-detail-list li span, .blog-post-list li span {
 .yellow:focus,
 .red:hover,
 .red:focus {
-  color: #ffffff;
+  color: #000;
   text-decoration: none;
-  background: #3b3f41;
+  background: #EA97FB;
   background-position: 0 -15px; 
   -webkit-transition: background-position 0.1s linear;
      -moz-transition: background-position 0.1s linear;
@@ -2285,7 +2301,7 @@ ul.service-detail-list li span, .blog-post-list li span {
     font-size: 14px;
     padding: 7px 35px;
 	text-transform: uppercase;
-	font-family: Raleway-Medium;
+	font-family: Arial;
 }
 .btn-mini{
 	margin-bottom: 15px;
@@ -2296,7 +2312,7 @@ ul.service-detail-list li span, .blog-post-list li span {
     padding: 2px 10px;
     font-size: 12px;
     text-transform: uppercase;
-	font-family: Raleway-Medium;
+	font-family: Arial;
 }
 
  
@@ -2314,12 +2330,12 @@ ul.redarrow li {
     margin-left: 0px;
     padding-left: 25px;
 	line-height:32px;
-	font-family:roboto;
+	font-family:Arial;
 }
 
 ul.redarrow li a, ul.arrow li a, ul.upper li a, ol li a, ul.typolist, ul.arrow1 li a, ul.typo-integer li a {
-    color: #6A7179;
-    font-family: roboto;
+    color: #000;
+    font-family: Arial;
     line-height: 32px;
 }
 
@@ -2331,7 +2347,7 @@ ul.arrow li {
     margin-left: 0px;
     padding-left: 25px;
 	line-height:32px;
-	font-family:roboto;
+	font-family:Arial;
 }
 
 ol li {
@@ -2352,13 +2368,13 @@ ul.redarrow, ul.arrow, ul.upper {
     list-style-type: none;
 }
 blockquote.nu {
-	color: #818a95;
+	color: #000;
 	padding: 20px;
 	font-size: 24px;
 	padding-left: 15px;
 	border-left: 5px solid #e3365b;
 	background: #f3f3f3;
-	font-family: DroidSerifItalic;
+	font-family: Arial;
 }
 
 blockquote.nu p { 
@@ -2383,7 +2399,7 @@ content: "\"";
 }
 }
 blockquote.nu p {
-	font-family: DroidSerifItalic;
+	font-family: Arial;
 	font-size: 18px;
 
 }
@@ -2425,7 +2441,7 @@ blockquote.nu p {
 
 
 .nav-tabs > li > a{
-	font-family: roboto;
+	font-family: Arial;
 	font-size: 16px;
 	color: #000;
 }
@@ -2445,7 +2461,7 @@ blockquote.nu p {
 }
 .tab-content p
 {
-  font-family: roboto;
+  font-family: Arial;
 	line-height: 20px;
 	text-align: left;
 }
@@ -2496,8 +2512,8 @@ blockquote.nu p {
     cursor: pointer;
 }
 .flex-thumbnal-area span {
-    color: #6D6962;
-    font-family: Raleway-Light;
+    color: #000;
+    font-family: Arial;
     font-size: 12px;
     line-height: 20px;
     padding-left: 20px;
@@ -2505,8 +2521,8 @@ blockquote.nu p {
 }
 
 .flex-thumbnal-area span h4 {
-    color: #4B453F;
-    font-family: Raleway-Sbold;
+    color: #000;
+    font-family: Tempus Sans ITC;
     font-size: 21px;
     line-height: 24px;
     margin-top: 0;
@@ -2517,9 +2533,9 @@ blockquote.nu p {
     background: none repeat scroll 0 0 #4B453F;
     border: 0 none;
     bottom: 0;
-    color: #FFFFFF;
+    color: #000;
     display: block;
-    font-family: Raleway-Sbold;
+    font-family: Arial;
     font-size: 12px;
     font-weight: 600;
     height: 34px;
@@ -2550,13 +2566,13 @@ bottom: 0em;
 
 
 footer li a{
-	color: #626668;
-    font-family: roboto;
+	color: #000;
+    font-family: Arial;
     font-size: 13px;
 	margin-right: 15px;
 }
 footer li a:hover, footer li a:active{
-	color: #f22853;
+	color: #000;
 	text-decoration: none;
 }
 .footer_nav_links {
@@ -2569,8 +2585,8 @@ footer li a:hover, footer li a:active{
 
 footer p{
      
-	font-family: roboto;
-	color: #626668;
+	font-family: Arial;
+	color: #000;
 	font-size: 14px;
 }
 footer{
@@ -2581,7 +2597,8 @@ footer{
 
 }
 .footer_full{
-	border-top: 1px solid #e5e5e5;
+  background-color:#b2a9be;
+	border-top: 1px solid #888291;
 }
 .footer_spacer{
   margin-top:62px;
@@ -2650,7 +2667,7 @@ left: -70px;
 .contact-icons li
 {
 	margin-bottom: 5px;
-	font-family: roboto;
+	font-family: Arial;
 }
 
 	
@@ -2690,48 +2707,48 @@ li {
 
 .comment-author
  { 
-    color: #2F2F2F;
-    font-family: roboto;
+    color: #000;
+    font-family: Arial;
     font-size: 14px;
     line-height: 20px;
     margin: 0 0 30px;
 	font-weight: 600;
  }
 fieldset p{
-	font-family: roboto;
+	font-family: Arial;
 	font-size: 12px;
 }
 .comment-content p 
 { 
 
-  color: #989495;
-    font-family: roboto;
+  color: #000;
+    font-family: Arial;
 	font-weight: normal;
 }.comment-date
-{   color: #AAAAAA;
-    font-family: roboto;
+{   color: #000;
+    font-family: Arial;
     font-size: 14px;
     margin-left: 17px;
 }
 .comment-date a 
 {  
-    color: #AAAAAA;
-    font-family: roboto;
+    color: #000;
+    font-family: Arial;
     font-size: 14px;
     margin-left: 17px; 
 }
 
 .comment-date
-{   color: #AAAAAA;
-    font-family: roboto;
+{   color: #000;
+    font-family: Arial;
     font-size: 14px;
     margin-left: 17px;
 	font-weight: normal;
 }
 .comment-date a 
 {  
-    color: #AAAAAA;
-    font-family: roboto;
+    color: #000;
+    font-family: Arial;
     font-size: 14px;
     margin-left: 17px; 
 }
@@ -2751,16 +2768,16 @@ border-top:1px solid #DEDEDE;
 #wp-calendar caption{
     font-weight: 600;
     font-size: 16px;
-    font-family: Raleway-Medium;
+    font-family: Tempus Sans ITC;
     margin-bottom: 5px;
     color: #000;
 }
 #wp-calendar .table th, #wp-calendar .table td{
-    font-family: Raleway-Medium;
+    font-family: Tempus Sans ITC;
 }
 
 .table-striped tbody > tr:nth-child(2n+1) > th {
-    background-color: #F22853;
+    background-color: #B4FEB6;
 }
 .table-striped { 
   -webkit-border-radius: 4px 4px 4px 4px;
@@ -2773,8 +2790,8 @@ border-top:1px solid #DEDEDE;
 .blog-detail-content h4,
 .blog-detail-content h5,
 .blog-detail-content h6{
-	color: #201F1F;
-    font-family: roboto;
+	color: #000;
+    font-family: Tempus Sans ITC;
     line-height: 20px;
     margin-top: 0;
 }
@@ -2805,20 +2822,20 @@ border-top:1px solid #DEDEDE;
     margin-bottom: 9px;
     margin-left: 0;
     padding-left: 25px;
-	font-family: roboto;
+	font-family: Arial;
 	line-height:24px;
 }
 .blog-detail-content ol li{
-	color: #848B8F;
-    font-family: roboto;
+	color: #000;
+    font-family: Arial;
     list-style: decimal outside none;
     margin-bottom: 9px;
     margin-left: 5px;
     padding-left: 0;
 }
 .blog-detail-content strong{
-	color: #424040;
-    font-family: roboto;
+	color: #000;
+    font-family: Arial;
     font-size: 18px;
     font-weight: normal;
     line-height: 20px;
@@ -2827,15 +2844,15 @@ border-top:1px solid #DEDEDE;
 }
 
 .blog-detail-content address{
-    color: #7A7A7A;
-    font-family: roboto;
+    color: #000;
+    font-family: Arial;
     font-size: 14px;
     font-weight: normal;
     line-height: 20px;
 	font-style: italic;
 }
 .blog-detail-content a{
-	color:#F22853;
+	color:#000;
 }
 .blog-detail-content a:hover{
 	color: #000;
@@ -2864,12 +2881,12 @@ ins {
 	font-size: 12px;
 	font-size: 0.857142857rem;
 	line-height: 2;
-	color: #757575;
+	color: #000;
 }
 article.sticky .featured-post {
 	border-top: 4px double #ededed;
 	border-bottom: 4px double #ededed;
-	color: #757575;
+	color: #000;
 	font-size: 13px;
 	font-size: 0.928571429rem;
 	line-height: 3.692307692;
@@ -2922,7 +2939,7 @@ article.sticky .featured-post {
 
 /* -------- Blog Icon Backgroud Image --------*/
 .spa-blog-icon {
-	font-family: roboto;
+	font-family: Arial;
 	list-style: none outside none;
 	margin-left: 0;
 	width: 150px;
@@ -2952,21 +2969,21 @@ article.sticky .featured-post {
 	
 }
 
-.flex-btn:hover { background-color: #F22853; }
-.aboutus-service-head:hover { color: #f22853; }
+.flex-btn:hover { background-color: #B4FEB6; }
+.aboutus-service-head:hover { color: #B4FEB6; }
 
 
 /*css for widget */
 
-#sidebar ul li a,.textwidget{ color:#7A8082; font-family:roboto;font-size:14px; line-height:24px;}
-#sidebar ul li a:hover{ font-family:roboto;font-size:14px;}
+#sidebar ul li a,.textwidget{ color:#000; font-family:Arial;font-size:14px; line-height:24px;}
+#sidebar ul li a:hover{ font-family:Arial;font-size:14px;}
 .widget_archive ul,#sidebar ul,.widget_categories ul,.widget_recent_comments  ul{ margin-bottom:25px; margin-left:0px;word-wrap:break-word;word-break:break-all; ms-word-wrap: break-word;}
 
 /*css for table*/
 
 .comment-content table {
 	border-bottom: 1px solid #ededed;
-	color: #757575;
+	color: #000;
 	font-size: 14px;
 	font-weight: 200;
 	
@@ -2974,7 +2991,7 @@ article.sticky .featured-post {
 	width: 100%;
 }
 .comment-content th {
-    color: #636363;
+    color: #000;
     font-size: 0.785714rem;
     font-weight: bold;
     line-height: 2.18182;
@@ -2991,7 +3008,7 @@ border-collapse: separate;
 -moz-border-radius: 4px;
 border-radius: 4px;
 width: 100%;
-font-family: 'roboto';
+font-family: Arial;
 font-size:14px;
 }
 table td {
@@ -3006,13 +3023,13 @@ border: 1px solid #dddddd;
 /* Woocommerce styles*/
 
 .woocommerce ul.products li.product h3, .woocommerce-page ul.products li.product h3 {
-     font-family: roboto !important;
+     font-family: Arial !important;
     font-size: 16px !important;
 }
 
 .woocommerce ul.products li.product .price, .woocommerce-page ul.products li.product .price {
-    color: #f22853;
-     font-family: roboto;
+    color: #000;
+     font-family: Arial;
     font-size: 16px;
     font-weight: 600 !important;    
 }
@@ -3025,16 +3042,16 @@ border: 1px solid #dddddd;
     text-align: center !important;
 }
 
-.woocommerce .woocommerce-message:before, .woocommerce-page .woocommerce-message:before,.woocommerce .woocommerce-message:before, .woocommerce-page .woocommerce-message:before,.woocommerce .woocommerce-info:before, .woocommerce-page .woocommerce-info:before,.woocommerce .woocommerce-info:before, .woocommerce-page .woocommerce-info:before{ background-color:#f22853 !important;}
+.woocommerce .woocommerce-message:before, .woocommerce-page .woocommerce-message:before,.woocommerce .woocommerce-message:before, .woocommerce-page .woocommerce-message:before,.woocommerce .woocommerce-info:before, .woocommerce-page .woocommerce-info:before,.woocommerce .woocommerce-info:before, .woocommerce-page .woocommerce-info:before{ background-color:#B4FEB6 !important;}
 
 .woocommerce .woocommerce-message, .woocommerce-page .woocommerce-message, .woocommerce .woocommerce-info, .woocommerce-page .woocommerce-info {
-    border-top: 3px solid #f22853 !important;
+    border-top: 3px solid #B4FEB6 !important;
 }
-div.tab-reviews textbox#comment{color: #555555;}
+div.tab-reviews textbox#comment{color: #000;}
 
 div.product h1 {
- font-family: roboto;
- color: #353c3f;
+ font-family: Tempus Sans ITC;
+ color: #000;
     font-size: 24px;
     font-weight: normal;
     line-height: 21px;
@@ -3043,3 +3060,22 @@ div.product h1 {
     padding-bottom: 15px !important;
 }
 div#payment label{display:inline-block;}
+
+.woocommerce #payment ul.payment_methods li, .woocommerce-page #payment ul.payment_methods li
+{
+list-style-type: none !important;
+}
+.woocommerce #content table.cart td.actions .coupon .input-text, .woocommerce table.cart td.actions .coupon .input-text, .woocommerce-page #content table.cart td.actions .coupon .input-text, .woocommerce-page table.cart td.actions .coupon .input-text { margin-top: 15px !important;}
+#ship-to-different-address label
+{
+ font-weight: normal !important;
+line-height: 20px !important;
+margin-bottom: -10px;
+}
+
+#ship-to-different-address input[type="checkbox"]
+{
+float:left;
+margin: -8px 0 -4px;
+}
+div#payment ul li {	background:none;}

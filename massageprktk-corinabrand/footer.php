@@ -35,6 +35,7 @@
               );
               endif;?>				
           </ul>
+          | test | test |
         </div>
       </footer>
     </div>
